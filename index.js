@@ -9,59 +9,59 @@ function gift() {
   if (input != "") {
     text.style.color = "black";
     switch (input) {
-      case "1119":
+      case "856":
         text.innerHTML = "$" + money;
         break;
-      case "2006":
-        text.innerHTML = "MONEY";
+      case "159":
+        text.innerHTML = "Poți face facultatea de medicină COST: $20.000";
         break;
 
-      case "2007":
-        text.innerHTML = "MONEY";
+      case "369":
+        text.innerHTML = "Poți face facultatea de contrucți COST: $15.000";
         break;
 
-      case "2008":
-        text.innerHTML = "MONEY";
+      case "236":
+        text.innerHTML = "Poți face facultatea de electrician COST: $10.000";
         break;
 
-      case "2009":
-        text.innerHTML = "MONEY";
+      case "588":
+        text.innerHTML = "Poți să te angajezi ca electrician Salariu: $3.000";
         break;
 
-      case "0404":
-        text.innerHTML = "MONEY";
+      case "258":
+        text.innerHTML = "Poți să te angajezi ca constructor Salariu: $6.000";
         break;
 
-      case "1020":
-        text.innerHTML = "MONEY";
+      case "771":
+        text.innerHTML = "Poți să te angajezi ca doctor Salariu: $9.000";
         break;
 
       case "0001":
-        text.innerHTML = "MONEY";
+        text.innerHTML = "Poți să te angajezi la salubritate Salariu: $1.000";
         break;
 
       case "2022":
-        text.innerHTML = "MONEY";
+        text.innerHTML = "Poți să te angajezi ca software developer (JAVA) Salariu: $10.000";
         break;
 
       case "2023":
-        text.innerHTML = "MONEY";
+        text.innerHTML = "Poți să participi la un curs de programare în JAVA COST: $15.000";
         break;
 
-      case "7480":
-        text.innerHTML = "MONEY";
+      case "5680":
+        text.innerHTML = "Ai de plătit $5.000 asigurare";
         break;
 
       case "5559":
-        text.innerHTML = "MONEY";
+        text.innerHTML = "Ai de făcut un cadou de $3.000 la un alt jucător";
         break;
 
       case "7777":
-        text.innerHTML = "MONEY";
+        text.innerHTML = "+$15.000";
         break;
 
       case "1234":
-        text.innerHTML = "MONEY";
+        text.innerHTML = "-$5.000";
         break;
 
       default:
