@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+
+}
+
+.textbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 500px;
+}
+
+.textbox #myInput{
+    height: 50px;
+    width: 300px;
+    font-size: 50px;
+}
+
+
+.textbox #button{
+    font-size: 45px;
+
+}
+
+p{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+}
+
+@media (max-width: 600px){
+    .textbox{
+        margin-top: 250px;
+    }   
+}
